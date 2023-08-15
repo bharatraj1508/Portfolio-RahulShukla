@@ -1,14 +1,26 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-scroll";
+
+const links = [
+  {
+    id: 1,
+    link: "home",
+  },
+  {
+    id: 2,
+    link: "about",
+  },
+  {
+    id: 3,
+    link: "portraits",
+  },
+];
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
   const handleScroll = () => {
-    if (window.scrollY > 0) {
-      setIsScrolled(true);
-    } else {
-      setIsScrolled(false);
-    }
+    setIsScrolled(window.scrollY > 0);
   };
 
   useEffect(() => {
@@ -20,26 +32,30 @@ const Header = () => {
 
   return (
     <div
-      className={`fixed top-0 w-full z-10 rounded-md ${
+      className={`md:fixed md:top-0 md:w-full md:z-10 ${
         isScrolled
-          ? "bg-header-moving-color transition-all text-white"
-          : "bg-header-static-color"
-      }`}>
-      <div className=" flex justify-between p-8">
-        <p className="text-4xl font-montez font-extrabold">RAHUL</p>
-        <ul className="hidden md:flex md:flex-row md:space-x-10 text-2xl">
-          <li>
-            <a href="">Home</a>
-          </li>
-          <li>
-            <a href="">About</a>
-          </li>
-          <li>
-            <a href="">Work</a>
-          </li>
-          <li>
-            <a href="">Contact</a>
-          </li>
+          ? "md:bg-header-moving-color md:text-white md:delay-100"
+          : "bg-transparent text-fuchsia-300"
+      } transition-all`}>
+      <div className="flex justify-between p-8">
+        <p
+          className={`text-4xl font-montez font-extrabold ${
+            isScrolled ? "md:text-white" : "text-black md:text-orange-100"
+          }`}>
+          RAHUL
+        </p>
+        <ul className="hidden md:flex md:flex-row md:space-x-10 md:text-2xl font-extrabold capitalize">
+          {links.map(({ id, link }) => (
+            <li key={id}>
+              <Link
+                to={link}
+                smooth
+                duration={500}
+                className="cursor-pointer p-2 rounded">
+                {link}
+              </Link>
+            </li>
+          ))}
         </ul>
       </div>
     </div>

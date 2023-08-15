@@ -4,11 +4,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        "header-static-color": "#93BFCF",
-        "header-moving-color": "#6096B4",
+        "header-static-color": "#FFF9DE",
+        "header-moving-color": "#2A2F4F",
+        "card-color": "#D8D9DA",
       },
       fontFamily: {
         montez: ["Montez"],
+        bungee: ["Bungee Shade"],
       },
     },
   },
