@@ -59,7 +59,7 @@ const Home = () => {
               fervor for creative exploration, fostering deep connections with
               audiences through various mediums
             </p>
-            <div className="shadow-md shadow-gray-600 rounded-lg overflow-hidden">
+            <div className="shadow-lg shadow-purple-600 rounded-lg overflow-hidden">
               <img
                 className="rounded shadow-xl md:w-screen md:h-screen opacity-90 object-cover w-full h-64"
                 src={HomeImage}
