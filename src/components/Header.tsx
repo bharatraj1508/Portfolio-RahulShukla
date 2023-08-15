@@ -35,16 +35,16 @@ const Header = () => {
       className={`md:fixed md:top-0 md:w-full md:z-10 ${
         isScrolled
           ? "md:bg-header-moving-color md:text-white md:delay-100"
-          : "bg-transparent text-fuchsia-300"
+          : "md:bg-transparent md:text-fuchsia-300"
       } transition-all`}>
       <div className="flex justify-between p-8">
         <p
           className={`text-4xl font-montez font-extrabold ${
             isScrolled ? "md:text-white" : "text-black md:text-orange-100"
           }`}>
-          RAHUL
+          RAHUL SHUKLA
         </p>
-        <ul className="hidden md:flex md:flex-row md:space-x-10 md:text-2xl font-extrabold capitalize">
+        <ul className="hidden md:flex md:flex-row md:space-x-10 md:text-2xl font-extrabold uppercase">
           {links.map(({ id, link }) => (
             <li key={id}>
               <Link

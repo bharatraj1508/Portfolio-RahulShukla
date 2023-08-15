@@ -59,18 +59,29 @@ const Home = () => {
               fervor for creative exploration, fostering deep connections with
               audiences through various mediums
             </p>
-            <img
-              className="rounded shadow-xl md:w-screen md:h-screen opacity-90"
-              src={HomeImage}
-              alt=""
-            />
-            <Link
-              to="portraits"
-              smooth
-              duration={500}
-              className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-purple-400 to-purple-600 cursor-pointe">
-              MY WORK
-            </Link>
+            <div className="shadow-md shadow-gray-600 rounded-lg overflow-hidden">
+              <img
+                className="rounded shadow-xl md:w-screen md:h-screen opacity-90 object-cover w-full h-64"
+                src={HomeImage}
+                alt=""
+              />
+            </div>
+            <div className="flex flex-row justify-between">
+              <Link
+                to="portraits"
+                smooth
+                duration={500}
+                className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-purple-400 to-purple-600 cursor-pointe">
+                MY WORK
+              </Link>
+              <Link
+                to="contact"
+                smooth
+                duration={500}
+                className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-purple-400 to-purple-600 cursor-pointe">
+                CONTACT ME
+              </Link>
+            </div>
           </div>
         </div>
       </div>
