@@ -1,3 +1,4 @@
+import HomeImage from "../assets/landing-page-background.jpg";
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 
@@ -20,7 +21,7 @@ const Home = () => {
       <div id="home" className="relative hidden md:block">
         <img
           className="rounded shadow-xl md:w-screen md:h-screen"
-          src="/src/assets/landing-page-background.jpg"
+          src={HomeImage}
           alt=""
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-gradient-to-r from-orange-300 to-purple-500 opacity-40">
@@ -60,7 +61,7 @@ const Home = () => {
             </p>
             <img
               className="rounded shadow-xl md:w-screen md:h-screen opacity-90"
-              src="/src/assets/landing-page-background.jpg"
+              src={HomeImage}
               alt=""
             />
             <Link

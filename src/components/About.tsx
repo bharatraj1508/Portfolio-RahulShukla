@@ -1,3 +1,6 @@
+import PotraitImage from "../assets/pencil-potrait-artist.jpeg";
+import TheatreImage from "../assets/theatre-artist.jpg";
+import FilmImage from "../assets/filmaking-artist.jpg";
 import { Link } from "react-scroll";
 
 const About = () => {
@@ -16,7 +19,7 @@ const About = () => {
               className="cursor-pointer ">
               <div className="space-y-4">
                 <img
-                  src="src/assets/pencil-potrait-artist.jpeg"
+                  src={PotraitImage}
                   className="h-56 md:h-80 w-full object-cover rounded-lg"
                   alt=""
                 />
@@ -33,7 +36,7 @@ const About = () => {
           <div className=" rounded-lg shadow-md flex flex-col justify-between p-6 bg-white">
             <div className="space-y-4">
               <img
-                src="/src/assets/theatre-artist.jpg"
+                src={TheatreImage}
                 className="h-56 md:h-80 w-full object-cover rounded-lg"
                 alt=""
               />
@@ -50,7 +53,7 @@ const About = () => {
           <div className=" rounded-lg shadow-md flex flex-col justify-between p-6 bg-white">
             <div className="space-y-4">
               <img
-                src="/src/assets/filmaking-artist.jpg"
+                src={FilmImage}
                 className="h-56 md:h-80 w-full object-cover rounded-lg"
                 alt=""
               />

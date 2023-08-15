@@ -1,3 +1,5 @@
+import PotraitPageImage from "../assets/portraits-background.jpg";
+
 const Portraits = () => {
   return (
     <>
@@ -5,7 +7,7 @@ const Portraits = () => {
         <div className=" md:h-screen flex justify-center items-center">
           <img
             className="rounded shadow-xl w-full h-full md:mt-32 opacity-70"
-            src="/src/assets/portraits-background.jpg"
+            src={PotraitPageImage}
             alt=""
           />
           <div className="absolute inset text-black justify-center items-center">
