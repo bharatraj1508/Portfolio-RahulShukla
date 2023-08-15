@@ -32,7 +32,7 @@ const Home = () => {
                 : ` text-purple-800 flex flex-col justify-center items-end space-y-52`
             }`}>
             <p className="text-7xl font-extrabold font-bungee">
-              From Pencil to Stage
+              From Pencil to Camera
             </p>
             <Link
               to="portraits"
@@ -49,7 +49,7 @@ const Home = () => {
         <div id="home" className="flex items-center justify-center h-screen">
           <div className="flex flex-col space-y-10 px-10">
             <h2 className="text-4xl sm:text-7xl font-bold text-black">
-              From Pencil to Stage
+              From Pencil to Camera
             </h2>
             <p>
               As a versatile pencil portrait artist, theatre enthusiast, and
