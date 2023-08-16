@@ -14,6 +14,10 @@ const links = [
     id: 3,
     link: "portraits",
   },
+  {
+    id: 4,
+    link: "theatre",
+  },
 ];
 
 const Header = () => {
