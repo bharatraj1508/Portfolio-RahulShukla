@@ -5,7 +5,15 @@ import { Link } from "react-scroll";
 
 const About = () => {
   return (
-    <div id="about" className="md:h-screen md:mt-10 ">
+    <div id="about" className="md:mt-10 ">
+      <div className="mt-10 md:mt-36 text-center text-4xl md:text-6xl font-semibold mb-12">
+        <div className="bg-gray-100 p-6 md:p-8 rounded-md shadow-md">
+          <p className="text-lg md:text-xl italic font-serif">
+            "Creativity is the greatest rebellion in existence"
+          </p>
+          <p className="text-sm text-gray-600 mt-2">— Osho</p>
+        </div>
+      </div>
       <div className="flex flex-col h-full p-8 justify-center">
         <h1 className="text-4xl md:text-6xl font-semibold mb-12 text-center font-anton">
           About Me

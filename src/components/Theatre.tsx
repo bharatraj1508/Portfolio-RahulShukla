@@ -49,20 +49,20 @@ const imagesRecognition = [
 const Theatre = () => {
   return (
     <>
-      <div id="theatre" className="h-screen mt-32">
+      <div id="theatre" className="mt-32">
         <div className="flex items-center justify-center my-8">
           <div className="border-t border-gray-300 w-1/4"></div>
           <p className="mx-4 text-gray-500">— THEATRE —</p>
           <div className="border-t border-gray-300 w-1/4"></div>
         </div>
-        <div className=" md:h-screen flex justify-center items-center overflow-hidden">
+        <div className="relative md:h-screen">
           <img
-            className="rounded shadow-xl w-screen md:h-screen opacity-80 object-cover"
+            className="w-screen md:h-screen shadow-xl object-cover"
             src={TheatreBackground}
             alt=""
           />
-          <div className="absolute inset text-black justify-center items-center">
-            <p className="text-3xl md:text-7xl font-extrabold font-bungee">
+          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
+            <p className="text-gray-300 text-3xl md:text-7xl font-extrabold font-bungee">
               THEATRE
             </p>
           </div>
@@ -71,9 +71,11 @@ const Theatre = () => {
         <div className="mt-10 md:mt-36 text-center text-4xl md:text-6xl font-semibold mb-12">
           <div className="bg-gray-100 p-6 md:p-8 rounded-md shadow-md">
             <p className="text-lg md:text-xl italic font-serif">
-              "Creativity is the greatest rebellion in existence"
+              "All the world's a stage, and all the men and women merely
+              players. They have their exits and their entrances; And one man in
+              his time plays many parts."
             </p>
-            <p className="text-sm text-gray-600 mt-2">— Osho</p>
+            <p className="text-sm text-gray-600 mt-2">— William Shakespeare</p>
           </div>
         </div>
 

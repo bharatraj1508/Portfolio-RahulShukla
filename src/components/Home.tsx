@@ -32,7 +32,7 @@ const Home = () => {
                 : ` text-purple-800 flex flex-col justify-center items-end space-y-52`
             }`}>
             <p className="text-7xl font-extrabold font-bungee">
-              From Pencil to Camera
+              My Artistic Voyage
             </p>
             <Link
               to="portraits"
@@ -49,7 +49,7 @@ const Home = () => {
         <div id="home" className="flex items-center justify-center h-screen">
           <div className="flex flex-col space-y-10 px-10">
             <h2 className="text-4xl sm:text-7xl font-bold text-black">
-              From Pencil to Camera
+              My Artistic Voyage
             </h2>
             <p>
               As a versatile pencil portrait artist, theatre enthusiast, and
@@ -68,7 +68,7 @@ const Home = () => {
             </div>
             <div className="flex flex-row justify-between">
               <Link
-                to="portraits"
+                to="filmaking"
                 smooth
                 duration={500}
                 className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-purple-400 to-purple-600 cursor-pointe">

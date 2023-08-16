@@ -56,15 +56,15 @@ const Portraits = () => {
           <p className="mx-4 text-gray-500">— PORTRAITS —</p>
           <div className="border-t border-gray-300 w-1/4"></div>
         </div>
-        <div className=" md:h-screen flex justify-center items-center">
+        <div className="relative md:h-screen">
           <img
-            className="rounded shadow-xl w-full h-full md:mt-32 opacity-70"
+            className="w-screen md:h-screen shadow-xl object-cover"
             src={PotraitPageImage}
             alt=""
           />
-          <div className="absolute inset text-black justify-center items-center">
-            <p className="text-3xl md:text-7xl font-extrabold font-bungee">
-              Portraits
+          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
+            <p className="text-gray-300 text-3xl md:text-7xl font-extrabold font-bungee">
+              PORTRAITS
             </p>
           </div>
         </div>

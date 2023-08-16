@@ -12,10 +12,14 @@ const links = [
   },
   {
     id: 3,
-    link: "portraits",
+    link: "filmaking",
   },
   {
     id: 4,
+    link: "portraits",
+  },
+  {
+    id: 5,
     link: "theatre",
   },
 ];
