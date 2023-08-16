@@ -50,6 +50,11 @@ const Theatre = () => {
   return (
     <>
       <div id="theatre" className="h-screen mt-32">
+        <div className="flex items-center justify-center my-8">
+          <div className="border-t border-gray-300 w-1/4"></div>
+          <p className="mx-4 text-gray-500">— THEATRE —</p>
+          <div className="border-t border-gray-300 w-1/4"></div>
+        </div>
         <div className=" md:h-screen flex justify-center items-center overflow-hidden">
           <img
             className="rounded shadow-xl w-screen md:h-screen opacity-80 object-cover"
@@ -72,7 +77,7 @@ const Theatre = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 px-8 md:px-12 m-6">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 md:px-12 mx-4">
           {imagesTheatre.map(({ id, imagePath }) => (
             <div
               key={id}

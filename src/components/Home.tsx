@@ -20,7 +20,7 @@ const Home = () => {
     <>
       <div id="home" className="relative hidden md:block">
         <img
-          className="rounded shadow-xl md:w-screen md:h-screen"
+          className="rounded shadow-xl md:w-screen md:h-full"
           src={HomeImage}
           alt=""
         />

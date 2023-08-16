@@ -51,6 +51,11 @@ const Portraits = () => {
   return (
     <>
       <div id="portraits">
+        <div className="flex items-center justify-center my-8">
+          <div className="border-t border-gray-300 w-1/4"></div>
+          <p className="mx-4 text-gray-500">— PORTRAITS —</p>
+          <div className="border-t border-gray-300 w-1/4"></div>
+        </div>
         <div className=" md:h-screen flex justify-center items-center">
           <img
             className="rounded shadow-xl w-full h-full md:mt-32 opacity-70"
