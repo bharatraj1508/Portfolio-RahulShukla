@@ -12,7 +12,7 @@ const links = [
   },
   {
     id: 3,
-    link: "filmaking",
+    link: "filmmaking",
   },
   {
     id: 4,

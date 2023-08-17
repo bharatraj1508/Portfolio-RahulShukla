@@ -36,16 +36,16 @@ const Home = () => {
             className={`${
               isScrolled
                 ? `hidden`
-                : ` text-purple-800 flex flex-col justify-center items-end space-y-52`
+                : ` text-purple-800 flex flex-col justify-center items-end space-y-32`
             }`}>
-            <p className="text-7xl font-extrabold font-bungee">
+            <p className="text-5xl font-extrabold font-bungee mt-36">
               My Artistic Voyage
             </p>
             <Link
               to="portraits"
               smooth
               duration={500}
-              className="text-white w-fit px-6 py-3 mt-2 text-3xl rounded-md font-bold bg-purple-600 cursor-pointer self-center">
+              className="text-white w-fit px-6 py-3 text-3xl rounded-md font-bold bg-purple-600 cursor-pointer self-center">
               MY WORK
             </Link>
           </div>
@@ -53,7 +53,7 @@ const Home = () => {
       </div>
 
       <div className="md:hidden">
-        <div id="home" className="flex items-center justify-center h-screen">
+        <div className="flex items-center justify-center h-screen">
           <div className="flex flex-col space-y-10 px-10">
             <h2 className="text-4xl sm:text-7xl font-bold text-black">
               My Artistic Voyage
