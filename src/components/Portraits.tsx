@@ -50,7 +50,7 @@ const imagesPotraits = [
 const Portraits = () => {
   return (
     <>
-      <div id="portraits">
+      <div id="portraits" className="mt-32">
         <div className="flex items-center justify-center my-8">
           <div className="border-t border-gray-300 w-1/4"></div>
           <p className="mx-4 text-gray-500">— PORTRAITS —</p>

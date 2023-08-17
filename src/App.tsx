@@ -3,7 +3,7 @@ import About from "./components/About";
 import Home from "./components/Home";
 import Portraits from "./components/Portraits";
 import Theatre from "./components/Theatre";
-// import Filmaking from "./components/Filmaking";
+import Filmaking from "./components/Filmaking";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <Home />
       </div>
       <About />
-      {/* <Filmaking /> */}
+      <Filmaking />
       <Portraits />
       <Theatre />
     </>

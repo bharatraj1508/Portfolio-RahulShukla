@@ -5,7 +5,7 @@ export default {
     extend: {
       colors: {
         "header-static-color": "#FFF9DE",
-        "header-moving-color": "#2A2F4F",
+        "header-moving-color": "#272829",
         "card-color": "#D8D9DA",
       },
       fontFamily: {
@@ -14,5 +14,5 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar-hide")],
 };
