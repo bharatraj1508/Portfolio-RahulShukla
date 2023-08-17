@@ -1,6 +1,6 @@
 import PotraitPageImage from "../assets/portraits-background.jpg";
 import P1 from "../assets/potraits/p1-n.jpg";
-import P2 from "../assets/potraits/p2.jpg";
+import P2 from "../assets/potraits/p2-n.jpg";
 import P3 from "../assets/potraits/p3.jpg";
 import P4 from "../assets/potraits/potrait4.jpg";
 import P5 from "../assets/potraits/potrait5.jpg";
