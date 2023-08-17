@@ -87,7 +87,7 @@ const Home = () => {
                   smooth
                   duration={500}
                   className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r  from-purple-600 to-purple-400 cursor-pointer">
-                  COMTACT ME
+                  CONTACT ME
                 </Link>
               </div>
               <div className="flex flex-row justify-around">
