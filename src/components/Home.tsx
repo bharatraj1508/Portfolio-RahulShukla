@@ -1,12 +1,19 @@
 import HomeImage from "../assets/landing-page-background.jpg";
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
+import instLogo from "../assets/instagram.png";
+import fbLogo from "../assets/facebook.png";
+import redditLogo from "../assets/reddit.png";
 
 const Home = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
   const handleScroll = () => {
     setIsScrolled(window.scrollY > 0);
+  };
+
+  const handleSubmit = (url: string) => {
+    window.open(url, "_blank");
   };
 
   useEffect(() => {
@@ -66,21 +73,55 @@ const Home = () => {
                 alt=""
               />
             </div>
-            <div className="flex flex-row justify-between">
-              <Link
-                to="filmaking"
-                smooth
-                duration={500}
-                className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-purple-400 to-purple-600 cursor-pointe">
-                MY WORK
-              </Link>
-              <Link
-                to="contact"
-                smooth
-                duration={500}
-                className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-purple-400 to-purple-600 cursor-pointe">
-                CONTACT ME
-              </Link>
+            <div className="flex flex-col gap-6">
+              <div className="flex flex-row justify-between">
+                <Link
+                  to="filmaking"
+                  smooth
+                  duration={500}
+                  className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-purple-400 to-purple-600 cursor-pointer">
+                  MY WORK
+                </Link>
+                <Link
+                  to=""
+                  smooth
+                  duration={500}
+                  className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r  from-purple-600 to-purple-400 cursor-pointer">
+                  COMTACT ME
+                </Link>
+              </div>
+              <div className="flex flex-row justify-around">
+                <img
+                  src={instLogo}
+                  className="cursor-pointer w-12 h-auto my-2"
+                  onClick={() =>
+                    handleSubmit(
+                      "https://instagram.com/raahulgraphite?igshid=MzRlODBiNWFlZA=="
+                    )
+                  }
+                  alt=""
+                />
+                <img
+                  src={fbLogo}
+                  className="cursor-pointer w-12 h-auto my-2"
+                  onClick={() =>
+                    handleSubmit(
+                      "https://www.facebook.com/profile.php?id=100091306322347&mibextid=ZbWKwL"
+                    )
+                  }
+                  alt=""
+                />
+                <img
+                  src={redditLogo}
+                  className="cursor-pointer w-12 h-auto my-2"
+                  onClick={() =>
+                    handleSubmit(
+                      "https://www.reddit.com/u/Rahulgraphite?utm_source=share&utm_medium=android_app&utm_name=androidcss&utm_term=1&utm_content=1"
+                    )
+                  }
+                  alt=""
+                />
+              </div>
             </div>
           </div>
         </div>

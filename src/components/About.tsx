@@ -68,11 +68,10 @@ const About = () => {
               <p className="text-3xl text-center">FILMMAKING</p>
               <p>
                 My role as a filmmaker revolves around the conception,
-                production, and realization of cinematic projects. This entails
-                a wide spectrum of responsibilities, ranging from
-                conceptualizing narratives and scripting to directing, filming,
-                editing, and often overseeing the entirety of the production
-                process.
+                direction, and realization of cinematic projects. This entails a
+                wide spectrum of responsibilities, ranging from conceptualizing
+                narratives and scripting to filming, editing, and often
+                overseeing the entirety of the directing process.
               </p>
             </div>
           </div>
