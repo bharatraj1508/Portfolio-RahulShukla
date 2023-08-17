@@ -150,10 +150,10 @@ const Filmaking = () => {
         <div className="mt-10 md:mt-16 text-center text-4xl md:text-6xl font-semibold mb-12">
           <div className="bg-gray-100 p-6 md:p-8 rounded-md shadow-md">
             <p className="text-lg md:text-xl italic font-serif">
-              "Cinema’s characteristic forte is its ability to capture and
-              communicate the intimacies of the human mind."
+              "A story should have a beginning, a middle and an end, but not
+              necessarily in that order."
             </p>
-            <p className="text-sm text-gray-600 mt-2">— Satyajit Ray</p>
+            <p className="text-sm text-gray-600 mt-2">— Jean-Luc Godard</p>
           </div>
         </div>
         <div className="mt-6 md:mt-16 mx-4 md:mx-8">
