@@ -84,7 +84,7 @@ const Home = () => {
                     MY WORK
                   </Link>
                   <Link
-                    to=""
+                    to="contact"
                     smooth
                     duration={500}
                     className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r  from-purple-600 to-purple-400 cursor-pointer">
