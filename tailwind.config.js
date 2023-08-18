@@ -9,7 +9,7 @@ export default {
         "card-color": "#D8D9DA",
       },
       fontFamily: {
-        montez: ["Montez"],
+        cinzel: ["Cinzel Decorative"],
         bungee: ["Bungee Shade"],
       },
     },

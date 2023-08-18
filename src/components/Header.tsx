@@ -51,10 +51,10 @@ const Header = () => {
       } transition-all`}>
       <div className="flex justify-between p-8">
         <p
-          className={`text-2xl font-montez font-extrabold ${
+          className={`text-2xl font-cinzel ${
             isScrolled ? "md:text-white" : "text-black md:text-orange-100"
           }`}>
-          RAHUL SHUKLA
+          Rahul ShuKla
         </p>
         <ul className="hidden md:flex md:flex-row md:space-x-4 font-extrabold uppercase">
           {links.map(({ id, link }) => (
