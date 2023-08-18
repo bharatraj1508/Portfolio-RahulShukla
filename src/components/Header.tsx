@@ -22,6 +22,10 @@ const links = [
     id: 5,
     link: "theatre",
   },
+  {
+    id: 6,
+    link: "contact",
+  },
 ];
 
 const Header = () => {
@@ -52,7 +56,7 @@ const Header = () => {
           }`}>
           RAHUL SHUKLA
         </p>
-        <ul className="hidden md:flex md:flex-row md:space-x-4 md:text-xl font-extrabold uppercase">
+        <ul className="hidden md:flex md:flex-row md:space-x-4 font-extrabold uppercase">
           {links.map(({ id, link }) => (
             <li key={id}>
               <Link
