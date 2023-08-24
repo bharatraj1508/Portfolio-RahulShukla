@@ -43,7 +43,7 @@ const Home = () => {
                 My Artistic Voyage
               </p>
               <Link
-                to="portraits"
+                to="filmmaking"
                 smooth
                 duration={500}
                 className="text-white w-fit px-6 py-3 text-3xl rounded-md font-bold bg-purple-600 cursor-pointer self-center">
