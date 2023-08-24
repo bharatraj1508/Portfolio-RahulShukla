@@ -1,5 +1,5 @@
 import TheatreBackground from "../assets/theatre/theatre-background.jpg";
-import T1 from "../assets/theatre/t1.jpg";
+import T1 from "../assets/theatre/t1.jpeg";
 import T2 from "../assets/theatre/theatre2.jpg";
 import T3 from "../assets/theatre/theatre3.jpg";
 import T4 from "../assets/theatre/theatre4.jpg";
@@ -96,7 +96,7 @@ const Theatre = () => {
         <div className="mt-10 md:mt-36 text-center text-4xl md:text-6xl font-semibold mb-12">
           <div className="bg-blue-100 p-6 md:p-8 rounded-md shadow-md">
             <p className="text-lg md:text-xl italic font-serif text-blue-800">
-              Proud participant of the 8th World Olympics Theatre
+              Proud participant of the 8th World Olympics of Theatre
             </p>
             <p className="text-sm text-gray-600 mt-2">
               Recognitions and Achievements that shape my journey

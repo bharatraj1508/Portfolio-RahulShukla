@@ -5,7 +5,6 @@ import Bts1 from "../assets/filmmaking/Antral/BTS/bts1.jpg";
 import Bts2 from "../assets/filmmaking/Antral/BTS/bts2.jpg";
 import Bts3 from "../assets/filmmaking/Antral/BTS/bts3.jpg";
 import Bts4 from "../assets/filmmaking/Antral/BTS/bts4.jpg";
-import Bts5 from "../assets/filmmaking/Antral/BTS/bts5.jpg";
 import Bts6 from "../assets/filmmaking/Antral/BTS/bts6.jpg";
 import Bts7 from "../assets/filmmaking/Antral/BTS/bts7.jpg";
 import Bts8 from "../assets/filmmaking/Antral/BTS/bts8.jpg";
@@ -23,45 +22,45 @@ import TereHathDor from "../assets/filmmaking/Others/tereHathDor.jpg";
 const othersImages = [
   {
     id: 1,
-    imagePath: Afsos,
-    title: "Afsos",
-    role: "Screenplay & Writer",
-    link: "https://www.youtube.com/watch?v=8Muj60GcYTI",
-  },
-  {
-    id: 2,
-    imagePath: Demands,
-    title: "Demands",
-    role: "Assitant Director",
-    link: "https://www.youtube.com/watch?v=a0BSeWxwvlc",
-  },
-  {
-    id: 3,
-    imagePath: ForYou,
-    title: "For You",
-    role: "Assitant Director",
-    link: "https://www.youtube.com/watch?v=VO79hljFUwE",
-  },
-  {
-    id: 4,
     imagePath: SohneLagde,
     title: "Kinne Sohne Lagde",
     role: "Director",
     link: "https://www.youtube.com/watch?v=tjp4AswOSk0",
   },
   {
-    id: 5,
+    id: 2,
     imagePath: LaageReNaina,
     title: "Laage Re Naina",
     role: "Director",
     link: "https://youtu.be/RFsBiDr-3I0",
   },
   {
-    id: 6,
+    id: 3,
     imagePath: TereHathDor,
     title: "Tere Hath Dor",
     role: "Art Director",
     link: "https://www.youtube.com/watch?v=fRQmmk4WBiI",
+  },
+  {
+    id: 4,
+    imagePath: Demands,
+    title: "Demands",
+    role: "Assitant Director",
+    link: "https://www.youtube.com/watch?v=a0BSeWxwvlc",
+  },
+  {
+    id: 5,
+    imagePath: ForYou,
+    title: "For You",
+    role: "Assitant Director",
+    link: "https://www.youtube.com/watch?v=VO79hljFUwE",
+  },
+  {
+    id: 6,
+    imagePath: Afsos,
+    title: "Afsos",
+    role: "Screenwriter",
+    link: "https://www.youtube.com/watch?v=8Muj60GcYTI",
   },
 ];
 
@@ -84,30 +83,26 @@ const btsImages = [
   },
   {
     id: 5,
-    imagePath: Bts5,
-  },
-  {
-    id: 6,
     imagePath: Bts6,
   },
   {
-    id: 7,
+    id: 6,
     imagePath: Bts7,
   },
   {
-    id: 8,
+    id: 7,
     imagePath: Bts8,
   },
   {
-    id: 9,
+    id: 8,
     imagePath: Bts9,
   },
   {
-    id: 10,
+    id: 9,
     imagePath: Bts10,
   },
   {
-    id: 11,
+    id: 10,
     imagePath: Bts11,
   },
 ];
@@ -129,7 +124,7 @@ const Filmaking = () => {
 
   return (
     <>
-      <div id="filmaking" className="mt-10 md:mt-32">
+      <div id="filmmaking" className="mt-10 md:mt-32">
         <div className="flex items-center justify-center my-4 sm:my-8">
           <div className="border-t border-gray-300 w-1/4"></div>
           <p className="mx-2 sm:mx-4 text-gray-500">— FILMMAKING —</p>
@@ -149,12 +144,19 @@ const Filmaking = () => {
         </div>
         <div className="mt-6 md:mt-16 mx-2 sm:mx-4 md:mx-8">
           <div className="mt-10 md:mt-16 text-center text-4xl md:text-6xl font-semibold mb-12">
-            <div className="bg-gray-100 p-6 md:p-8 rounded-md shadow-md">
-              <p className="text-lg md:text-xl italic font-serif">
-                "A story should have a beginning, a middle and an end, but not
-                necessarily in that order."
-              </p>
-              <p className="text-sm text-gray-600 mt-2">— Jean-Luc Godard</p>
+            <div className="mt-10 md:mt-36 text-center text-4xl md:text-6xl font-semibold mb-12">
+              <div className="bg-blue-100 p-6 md:p-8 rounded-md shadow-md">
+                <p className="text-lg md:text-xl italic font-serif text-blue-800">
+                  Screenwriter of the Biopic of India's First Wheelchair
+                  Bodybuilder.
+                </p>
+                <a
+                  href="https://instagram.com/mr.world_arnold?igshid=MzRlODBiNWFlZA=="
+                  target="_blank"
+                  className="text-xl md:text-2xl text-blue-600 mt-2 underline cursor-pointer italic">
+                  Anand Arnold
+                </a>
+              </div>
             </div>
           </div>
           <div className="mt-6 md:mt-16 mx-4 md:mx-8">
@@ -164,9 +166,13 @@ const Filmaking = () => {
               <div className="border-t border-gray-300 w-1/4"></div>
             </div>
             <div className="bg-gray-100 p-6 rounded-lg shadow-lg mt-8 md:space-x-8">
-              <p className="text-4xl md:text-6xl font-semibold mb-4 md:mb-6">
-                Ant-Raal
-              </p>
+              <div>
+                <p className="text-4xl md:text-6xl font-semibold ">Ant-Raal</p>
+                <p className=" text-gray-500 mb-4 md:mb-6 italic text-2xl">
+                  Debut feature film
+                </p>
+              </div>
+
               <div className="flex flex-col-reverse gap-8 md:flex-row">
                 <div className="text-black md:w-2/3">
                   <p className="text-base md:text-lg leading-relaxed">
@@ -235,9 +241,18 @@ const Filmaking = () => {
             <div className="bg-gray-100 p-6 md:p-10 rounded-lg shadow-lg mt-8 space-y-6 md:mt-24 md:space-y-0 md:space-x-8">
               <div className="flex flex-col-reverse gap-8 md:flex-row-reverse">
                 <div className="text-black flex flex-col justify-center items-center">
-                  <p className="text-4xl md:text-6xl font-semibold mb-4 md:mb-6 self-start">
-                    Soul Eaters
-                  </p>
+                  <div className="mb-4 md:mb-6 self-start">
+                    <p className="text-4xl md:text-6xl font-semibold ">
+                      Soul Eaters
+                    </p>
+                    <a
+                      href="https://youtu.be/-7zw7Jh8DWw?si=6N9ph1Hdhq0fURBW"
+                      className=" text-blue-500 mb-4 md:mb-6 italic text-xl underline cursor-pointer"
+                      target="_blank">
+                      Movie Link
+                    </a>
+                  </div>
+
                   <p className="text-base md:text-lg leading-relaxed">
                     Soul eaters, a film revolving around a women who left her
                     well settled job because of the male dominated culture of

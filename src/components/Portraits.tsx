@@ -69,11 +69,13 @@ const Portraits = () => {
           </div>
         </div>
         <div className="mt-10 md:mt-36 text-center text-4xl md:text-6xl font-semibold mb-12">
-          <div className="bg-gray-100 p-6 md:p-8 rounded-md shadow-md">
-            <p className="text-lg md:text-xl italic font-serif">
-              "A drawing is simply a line going for a walk"
+          <div className="bg-blue-100 p-6 md:p-8 rounded-md shadow-md">
+            <p className="text-lg md:text-xl italic font-serif text-blue-800">
+              State level Winner in drawing.
             </p>
-            <p className="text-sm text-gray-600 mt-2">— Paul Klee</p>
+            <p className="text-sm text-gray-600 mt-2">
+              Amritsar Art gallery 2018 Exhibition
+            </p>
           </div>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-8 px-4 sm:px-8 md:px-12 m-4 sm:m-6">
