@@ -6,6 +6,7 @@ import Theatre from "./components/Theatre";
 import Filmaking from "./components/Filmaking";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import NewRelease from "./components/NewRelease";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <div className="relative">
         <Home />
       </div>
+      <NewRelease />
       <About />
       <Filmaking />
       <Portraits />
